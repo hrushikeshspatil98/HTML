@@ -1,0 +1,95 @@
+<!-- Topics: Table tag, Caption tag, Attributes: Border, Cellpadding, Cellspacing, Rowspan, Colspan, Width, Height -->
+
+<!DOCTYPE HTML>
+<html>
+ 
+   <head>
+      <title> Table </title>
+   </head>
+
+   <body>
+      <center>  <h2> <u> Tables </u> </h2> </center> <hr>
+      <table border="1" cellpadding="4" cellspacing="4">
+      <!-- cellpadding defines space between table cells while cellpadding defines distance between cell borders and the content within cell -->
+
+      <caption> <b> <i> Products </i> </b> </caption>
+      <tr>
+        <th> Product ID          </th>
+        <th> Product Name </th>
+        <th> Weight </th>
+        <th> Unit Price (Rs.)        </th>
+      </tr>
+
+      <tr>
+        <td> 1 </td>
+        <td> Sugar </td>
+        <td> 1 kg </td>
+        <td> 45/- </td>
+      </tr>
+
+      <tr>
+        <td> 2 </td>
+        <td> Salt </td>
+        <td> 1 kg </td>
+        <td> 35/- </td>
+      </tr>
+
+      <tr>
+        <td> 3 </td>
+        <td> Jaggery </td>
+        <td> 1 kg </td>
+        <td> 50/- </td>
+      </tr>
+
+      <tr>
+        <td> 4 </td>
+        <td> Basmati Rice </td>
+        <td> 5 kg </td>
+        <td> 390/- </td>
+      </tr>
+
+      <tr>
+        <td> 5 </td>
+        <td> Red Chilli Powder </td>
+        <td> 1 kg </td>
+        <td> 250/- </td>
+      </tr>
+      </table>
+      <br><br><br>
+
+      <table border="1" cellspacing="4" cellpadding="4" width="415" height="150">
+      <caption> <b> <i> Rowspan and Colspan Attribute </i> </b> </caption>    
+  
+      <thead>  <!-- Creates a seprate table header (optional tag) -->
+      <tr> 
+        <th> Month </th>
+        <th> Salary (Rs.)</th>
+        <th> Holiday Allowance (Rs.)</th>
+      </tr>
+      </thead>      
+      
+      <tbody>  <!-- Indicates body of the table (optional tag) -->
+      <tr>
+        <td> January </td>
+        <td> 23500/- </td>
+        <td rowspan="2"> 600/- </td>
+      </tr>
+    
+       <tr>
+        <td> February </td>
+        <td> 24275/- </td>
+       </tr>
+       </tbody>
+
+       <tfoot> <!-- Creates a seprate table footer (optional tag) -->
+       <tr>
+         <td colspan="3"> Total: 48375/- </td>
+       </tr>
+       </tfoot>
+
+      </table>
+      
+ 
+   </body>
+
+</html>
