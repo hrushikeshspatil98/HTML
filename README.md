@@ -4,3 +4,4 @@
 3) Tables
 4) Images
 5) Links: Use of base path, Setting link colors, anchor tag, href and target attributes, text links, image links.
+6) Text Formatting  
