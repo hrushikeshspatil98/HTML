@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title> Login Form </title>
+   </head>
+
+   <body> 
+       <!-- Attributes used in HTMLforms :
+            action - The action to be performed after submission of the form is decided by the action attribute.
+            target - The target attribute is used to specify whether submitted result will open in current window, a new tab or a new frame.
+            method - It is used to specify the HTTP method to send data while submitting the form (GET or POST).
+            name   - The name attribute is required for each input field. If name attribute is not specified in an input field then
+                     data of that field would not sent at all.   
+        -->
+       <form action="DefinitionList.html" target="_blank" method="get">
+
+          <fieldset>
+    
+             <legend> <b> Login </b> </legend>
+             <br>
+
+             <lable for="UserName"> <b> User Name </b> </lable> <br>
+             <input type="text" name="uname" id="uname"/> <br><br>
+
+             <lable for="UserPassword"> <b> Password </b> </lable> <br>
+             <input type="password" name="upass" id="upass"/> <br><br>
+
+             <input type="submit" value="Submit" >
+            
+
+          </fieldset>
+       </from>
+
+   </body>
+</html>

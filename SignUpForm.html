@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+   <head>
+       <title> SignUp </title>
+   </head>
+
+   <body>
+       <h1> Sign Up Form </h1> <hr>
+      <form>
+         <!-- Text Field in HTML Form -->
+         <b> User Name: </b> <br>
+         <input type="text" name="username" id="uname" placeholder="username"/> <br><br>
+
+         <!-- Password Field in HTML Form -->
+         <lable for="password"><b> Password: </b> </label> <br>
+         <input type="password" name="userpass" id="upass" placeholder="password"/> <br><br>
+
+         <!-- Select Box in HTML Form -->
+         <lable> <b> Select Gender: </b> </lable><br>
+         <input type="radio" name="gender" id="male"/> 
+         <lable for="male"> <b> Male </b></lable>
+         <input type="radio" name="gender" id="female"/> 
+         <lable for="female"> <b> Female </b> </lable>
+         <input type="radio" name="gender" id="other"/> 
+         <lable for="other"> <b> Other </b> </lable> <br><br>
+
+         <!-- Checkboxes in HTML Form -->
+         <lable for="branch"> <b> Select Language: </b></lable> <br>
+         <input type="checkbox" name="language" id="marathi"/> 
+         <lable for="marathi"> <b> Marathi </b> </lable> <br>
+         <input type="checkbox" name="language" id="english"/> 
+         <lable for="english"> <b> English </b> </lable> <br>
+         <input type="checkbox" name="language" id="hindi"/> 
+         <lable for="hindi"> <b> Hindi </b> </lable> <br>
+         <input type="checkbox" name="language" id="other"/> 
+         <lable for="other"> <b> Other </b> </lable> <br><br>
+
+         <!-- Radio Buttons in HTML Form -->
+         <lable for="state"> <b> Select State: </b> </lable> <br>
+         <select name="state" id="country">
+            <option value="maharashtra"> Maharashtra </option>
+            <option value="karnataka"> Karnataka </option>
+            <option value="kerala"> Kerala </option>
+            <option value="bihar"> Bihar </option>
+            <option value="manipur"> Manipur </option>
+            <option value="gujrat"> Gujrat </option>
+         </select>  <br><br>
+
+         <!-- Textarea in HTML Form -->
+         <lable for="address"> <b> Address: </b> </lable> <br>
+         <textarea rows="4" cols="22" name="address" id="address">Enter address here... </textarea> <br><br>    
+ 
+         <!-- Telephone Field in HTML Forms -->
+         <lable for="phoneNo"> <b> Phone Number: </b> </lable> <br>
+         <input type="tel" name="phone" id="phoneNo" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/> <br><br>
+ 
+         <!-- Email Field in HTML Form -->
+         <lable for="email"> <b> Email ID: </b> </lable><br>
+         <input type="email" name="email" id="emailid"/> <br><br>
+      
+         <!-- File Select Box in HTML Forms -->
+         <lable for="selectfile"> <b> Upload File: </b> </lable> <br>
+         <input type="file" name="uploadfile" id="selectfile"/> <br><br><br>
+
+         <!-- Buttons in HTML Forms -->
+         <input type="submit" value="Submit"/>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="reset" value="Reset"/> <br>
+
+      </form>
+ 
+   </body>
+
+</html>
